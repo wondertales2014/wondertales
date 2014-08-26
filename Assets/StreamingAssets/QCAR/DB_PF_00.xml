@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="PF_01" size="2098.000000 2778.000000" />
+    <ImageTarget name="PF_07" size="2092.000000 2792.000000" />
+    <ImageTarget name="PF_06" size="2096.000000 2703.000000" />
+    <ImageTarget name="PF_05" size="2103.000000 2779.000000" />
+    <ImageTarget name="PF_04" size="2103.000000 2710.000000" />
+    <ImageTarget name="PF_03" size="2090.000000 2759.000000" />
+    <ImageTarget name="PF_02" size="2035.000000 2699.000000" />
+    <ImageTarget name="PF_00" size="2069.000000 2693.000000" />
+  </Tracking>
+</QCARConfig>
