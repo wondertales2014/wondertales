@@ -1,0 +1,115 @@
+fileFormatVersion: 2
+guid: bcecd6a1232b08442b917068567ec66d
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: abdomen
+    100002: antepataDelanteraL
+    100004: antepataDelanteraR
+    100006: Armature
+    100008: Armature_001
+    100010: cadera
+    100012: cola_002
+    100014: cuello
+    100016: hombroL
+    100018: hombroR
+    100020: Lobo
+    100022: mandibulaI
+    100024: mandibulaS
+    100026: musloTraseroL
+    100028: musloTraseroR
+    100030: nalgaL
+    100032: nalgaR
+    100034: pataDelanteraL
+    100036: pataDelanteraR
+    100038: pataTraseraL
+    100040: pataTraseraR
+    100042: pecho
+    100044: puntaCola
+    100046: raizCola
+    100048: tronco
+    100050: //RootNode
+    400000: abdomen
+    400002: antepataDelanteraL
+    400004: antepataDelanteraR
+    400006: Armature
+    400008: Armature_001
+    400010: cadera
+    400012: cola_002
+    400014: cuello
+    400016: hombroL
+    400018: hombroR
+    400020: Lobo
+    400022: mandibulaI
+    400024: mandibulaS
+    400026: musloTraseroL
+    400028: musloTraseroR
+    400030: nalgaL
+    400032: nalgaR
+    400034: pataDelanteraL
+    400036: pataDelanteraR
+    400038: pataTraseraL
+    400040: pataTraseraR
+    400042: pecho
+    400044: puntaCola
+    400046: raizCola
+    400048: tronco
+    400050: //RootNode
+    4300000: Lobo
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Lobo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: cadera
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
