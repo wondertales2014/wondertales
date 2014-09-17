@@ -1,17 +1,17 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{687B0A92-2552-063E-83A5-1B6771FA3A67}") = "Wondertales", "Assembly-CSharp-firstpass.csproj", "{EB370B5F-A954-E75D-E228-E7FEC8D7A544}"
+Project("{8304A94B-EF38-5590-FBA1-7EF69AF6A331}") = "wondertales", "Assembly-CSharp-firstpass.csproj", "{85086AAC-1140-1A53-6935-E54ADE326C89}"
 EndProject
-Project("{687B0A92-2552-063E-83A5-1B6771FA3A67}") = "Wondertales", "Assembly-CSharp.csproj", "{B3AA9E0D-4884-E368-38CB-688CB0C9C44E}"
+Project("{8304A94B-EF38-5590-FBA1-7EF69AF6A331}") = "wondertales", "Assembly-CSharp.csproj", "{980ED693-7C88-08AD-0EC5-36C11A91CF8E}"
 EndProject
-Project("{687B0A92-2552-063E-83A5-1B6771FA3A67}") = "Wondertales", "Assembly-CSharp-Editor.csproj", "{88B60172-A177-4EA9-D427-3E6B557F1BF1}"
+Project("{8304A94B-EF38-5590-FBA1-7EF69AF6A331}") = "wondertales", "Assembly-CSharp-Editor.csproj", "{A193EA88-F1F2-8C22-827C-A021FBE012F7}"
 EndProject
-Project("{687B0A92-2552-063E-83A5-1B6771FA3A67}") = "Wondertales", "Assembly-UnityScript-firstpass.unityproj", "{EEE17F7F-6723-EABB-D2A8-968665CE0F5B}"
+Project("{8304A94B-EF38-5590-FBA1-7EF69AF6A331}") = "wondertales", "Assembly-UnityScript-firstpass.unityproj", "{9EC8B16D-DDDE-2CC8-371B-41B6FEF16462}"
 EndProject
-Project("{687B0A92-2552-063E-83A5-1B6771FA3A67}") = "Wondertales", "Assembly-UnityScript.unityproj", "{37F5E6F5-568B-1781-0C17-BB1FD3671651}"
+Project("{8304A94B-EF38-5590-FBA1-7EF69AF6A331}") = "wondertales", "Assembly-UnityScript.unityproj", "{30DE76D8-DE0D-59CE-8DEE-DE4A759B86FB}"
 EndProject
-Project("{687B0A92-2552-063E-83A5-1B6771FA3A67}") = "Wondertales", "Assembly-UnityScript-Editor-firstpass.unityproj", "{93E3A403-90EF-2357-451A-52A97F38331C}"
+Project("{8304A94B-EF38-5590-FBA1-7EF69AF6A331}") = "wondertales", "Assembly-UnityScript-Editor-firstpass.unityproj", "{83595300-1343-4A51-4DB6-EDB4BB71881D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,35 +19,35 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EB370B5F-A954-E75D-E228-E7FEC8D7A544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB370B5F-A954-E75D-E228-E7FEC8D7A544}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB370B5F-A954-E75D-E228-E7FEC8D7A544}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB370B5F-A954-E75D-E228-E7FEC8D7A544}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B3AA9E0D-4884-E368-38CB-688CB0C9C44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3AA9E0D-4884-E368-38CB-688CB0C9C44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B3AA9E0D-4884-E368-38CB-688CB0C9C44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B3AA9E0D-4884-E368-38CB-688CB0C9C44E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88B60172-A177-4EA9-D427-3E6B557F1BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88B60172-A177-4EA9-D427-3E6B557F1BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88B60172-A177-4EA9-D427-3E6B557F1BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88B60172-A177-4EA9-D427-3E6B557F1BF1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EEE17F7F-6723-EABB-D2A8-968665CE0F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EEE17F7F-6723-EABB-D2A8-968665CE0F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EEE17F7F-6723-EABB-D2A8-968665CE0F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EEE17F7F-6723-EABB-D2A8-968665CE0F5B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37F5E6F5-568B-1781-0C17-BB1FD3671651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37F5E6F5-568B-1781-0C17-BB1FD3671651}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37F5E6F5-568B-1781-0C17-BB1FD3671651}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37F5E6F5-568B-1781-0C17-BB1FD3671651}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93E3A403-90EF-2357-451A-52A97F38331C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93E3A403-90EF-2357-451A-52A97F38331C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93E3A403-90EF-2357-451A-52A97F38331C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93E3A403-90EF-2357-451A-52A97F38331C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85086AAC-1140-1A53-6935-E54ADE326C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85086AAC-1140-1A53-6935-E54ADE326C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85086AAC-1140-1A53-6935-E54ADE326C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85086AAC-1140-1A53-6935-E54ADE326C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980ED693-7C88-08AD-0EC5-36C11A91CF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980ED693-7C88-08AD-0EC5-36C11A91CF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980ED693-7C88-08AD-0EC5-36C11A91CF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980ED693-7C88-08AD-0EC5-36C11A91CF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A193EA88-F1F2-8C22-827C-A021FBE012F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A193EA88-F1F2-8C22-827C-A021FBE012F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A193EA88-F1F2-8C22-827C-A021FBE012F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A193EA88-F1F2-8C22-827C-A021FBE012F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC8B16D-DDDE-2CC8-371B-41B6FEF16462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC8B16D-DDDE-2CC8-371B-41B6FEF16462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC8B16D-DDDE-2CC8-371B-41B6FEF16462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC8B16D-DDDE-2CC8-371B-41B6FEF16462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DE76D8-DE0D-59CE-8DEE-DE4A759B86FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DE76D8-DE0D-59CE-8DEE-DE4A759B86FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DE76D8-DE0D-59CE-8DEE-DE4A759B86FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DE76D8-DE0D-59CE-8DEE-DE4A759B86FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83595300-1343-4A51-4DB6-EDB4BB71881D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83595300-1343-4A51-4DB6-EDB4BB71881D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83595300-1343-4A51-4DB6-EDB4BB71881D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83595300-1343-4A51-4DB6-EDB4BB71881D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-		GlobalSection(MonoDevelopProperties) = preSolution
+									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
