@@ -1,6 +1,7 @@
 ﻿#pragma strict
 
 var anim : Animator;
+var patos : Animator;
 
 function Start () {
 
@@ -13,8 +14,7 @@ function Update () {
 	var hit:RaycastHit;
 	if (Physics.Raycast (transform.position, fwd, hit, Mathf.Infinity)) 
 		{
-		print("hit");
-		anim.SetBool("miraCentro", true);
+
 		}
 }
 
@@ -23,6 +23,7 @@ function OnTouchDown (valor : int) {
 	if (valor == 1)	
 		{
 		anim.SetBool("break", true);
+		patos.SetBool("start", true);
 		}
 	if (valor == 2)	
 		{
