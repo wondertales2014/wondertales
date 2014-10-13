@@ -28,6 +28,11 @@ ModelImporter:
     100044: shin_L_001
     100046: shin_R_001
     100048: noose
+    100050: hand_L
+    100052: hand_R
+    100054: head_002
+    100056: head_003
+    100058: head_004
     400000: //RootNode
     400002: chest
     400004: foot_L
@@ -53,6 +58,11 @@ ModelImporter:
     400044: shin_L_001
     400046: shin_R_001
     400048: noose
+    400050: hand_L
+    400052: hand_R
+    400054: head_002
+    400056: head_003
+    400058: head_004
     4300000: Piggie_Suit_uved_Mesh
     7400000: Default Take
     9500000: //RootNode
@@ -170,7 +180,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: shoulder_L
+    - boneName: upper_arm_L
       humanName: LeftUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -178,15 +188,15 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 1
-    - boneName: shoulder_R
+    - boneName: upper_arm_R
       humanName: RightUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 100}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
-    - boneName: upper_arm_L
+        modified: 1
+    - boneName: forearm_L
       humanName: LeftLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -194,7 +204,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: upper_arm_R
+    - boneName: forearm_R
       humanName: RightLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -202,7 +212,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: forearm_L
+    - boneName: hand_L
       humanName: LeftHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -210,7 +220,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: forearm_R
+    - boneName: hand_R
       humanName: RightHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -228,6 +238,38 @@ ModelImporter:
         modified: 0
     - boneName: foot_L
       humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head_004
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head_003
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_L
+      humanName: LeftShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
