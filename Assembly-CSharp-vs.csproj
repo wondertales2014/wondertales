@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +70,7 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\SetBGCameraLayerBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\SmartTerrainBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\SurfaceBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TCP1TrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TextRecoBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TurnOffBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TurnOffWordBehaviour.cs" />
@@ -107,13 +108,13 @@
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
      <None Include="Assets\StreamingAssets\QCAR\unity.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/cbarone/Documents/wondertales/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Noe y Pablo/Documents/GitHub/wondertales/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
- <HintPath>C:/Users/cbarone/Documents/wondertales/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>C:/Users/Noe y Pablo/Documents/GitHub/wondertales/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
