@@ -1,13 +1,18 @@
 ﻿#pragma strict
+import UnityEngine.UI;
 
-var dialogo1 : Canvas;
+var texto : UI.Text;
 
 function Start () {
 
-dialogo1.enabled = true;
 
 }
 
 function Update () {
+
+}
+function DialogCreate (dialogo : String){
+
+texto.text = dialogo;
 
 }
