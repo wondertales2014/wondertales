@@ -15,15 +15,20 @@ ITrackableEventHandler
 	#region PRIVATE_MEMBER_VARIABLES
 	
 	private TrackableBehaviour mTrackableBehaviour;
-	
+	public Canvas screenController;
+	public Canvas loadingController;
+
 	#endregion // PRIVATE_MEMBER_VARIABLES
 	
 	
 	
 	#region UNTIY_MONOBEHAVIOUR_METHODS
-	
+
 	void Start()
 	{
+	//	this.screenController = GameObject.Find ("ScreenController");
+	//	this.loadingController = GameObject.Find ("LoadingController");
+
 		mTrackableBehaviour = GetComponent<TrackableBehaviour>();
 		if (mTrackableBehaviour)
 		{
@@ -66,6 +71,10 @@ ITrackableEventHandler
 	
 	private void OnTrackingFound()
 	{
+		//Target
+		this.screenController.enabled = false;
+		this.loadingController.enabled = true;
+
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 		Terrain[]  terrainComponents = GetComponentsInChildren<Terrain>(true);
@@ -89,16 +98,7 @@ ITrackableEventHandler
 			terrain.enabled = true;
 		}
 
-		//Enable Halos
-		//GameObject.Find ("HaloLight_PF_07_01").SetActive(true);
-		//GameObject.Find ("HaloLight_PF_05_01").SetActive(true);
-		//GameObject.Find ("HaloLight_PF_05_02").SetActive(true);
-		//GameObject.Find ("HaloLight_PF_05_03").SetActive(true);
-		//GameObject.Find ("HaloLight_PF_05_04").SetActive(true);
-		//GameObject.Find ("HaloLight_PF_03_01").SetActive(true);
-
-		//Target
-		GameObject.Find ("ScreenController").SetActive(false);
+		this.loadingController.enabled = false;
 
 		Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
 	}
@@ -106,6 +106,10 @@ ITrackableEventHandler
 	
 	private void OnTrackingLost()
 	{
+		//Target
+		this.screenController.enabled = true;
+		this.loadingController.enabled = false;
+
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 		Terrain[]  terrainComponents = GetComponentsInChildren<Terrain>(true);
@@ -128,16 +132,7 @@ ITrackableEventHandler
 			terrain.enabled = false;
 		}
 
-		//Disable Halos
-		//GameObject.Find ("HaloLight_PF_07_01").SetActive(false);
-		//GameObject.Find ("HaloLight_PF_05_01").SetActive(false);
-		//GameObject.Find ("HaloLight_PF_05_02").SetActive(false);
-		//GameObject.Find ("HaloLight_PF_05_03").SetActive(false);
-		//GameObject.Find ("HaloLight_PF_05_04").SetActive(false);
-		//GameObject.Find ("HaloLight_PF_03_01").SetActive(false);
 
-		//Target
-		GameObject.Find ("ScreenController").SetActive(true);
 
 		Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
 	}
