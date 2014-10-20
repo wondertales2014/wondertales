@@ -50,6 +50,7 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\ButtonPopup.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CustomTrackableEventHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CustomTrackableEventHandlerWithAudio.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CylinderTargetBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DataSetLoadBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DefaultInitializationErrorHandler.cs" />
@@ -80,6 +81,7 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\Scripts\EggsQtyController.cs" />
      <Compile Include="Assets\Scripts\LoadAtStart.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
@@ -112,7 +114,7 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
- <HintPath>C:/Users/PabloyNoe/Documents/GitHub/wondertales/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>C:/Users/cbarone/Documents/wondertales/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

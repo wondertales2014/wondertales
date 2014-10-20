@@ -2,6 +2,7 @@
 
 var anim : Animator;
 var patos : Animator;
+var crack : AudioSource;
 
 function Start () {
 
@@ -24,10 +25,11 @@ function OnTouchDown (valor : int) {
 		{
 		anim.SetBool("break", true);
 		patos.SetBool("start", true);
+		crack.Play();
 		}
 	if (valor == 2)	
 		{
-
+		anim.SetBool("break", false);
 		}
 	if (valor == 3)
 		{

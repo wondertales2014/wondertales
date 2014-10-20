@@ -17,6 +17,7 @@ ITrackableEventHandler
 	private TrackableBehaviour mTrackableBehaviour;
 	public Canvas screenController;
 	public Canvas loadingController;
+	public Canvas pageController;
 
 	#endregion // PRIVATE_MEMBER_VARIABLES
 	
@@ -74,6 +75,7 @@ ITrackableEventHandler
 		//Target
 		this.screenController.enabled = false;
 		this.loadingController.enabled = true;
+		this.pageController.enabled = true;
 
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
@@ -109,6 +111,7 @@ ITrackableEventHandler
 		//Target
 		this.screenController.enabled = true;
 		this.loadingController.enabled = false;
+		this.pageController.enabled = false;
 
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
