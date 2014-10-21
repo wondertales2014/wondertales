@@ -18,7 +18,7 @@ ITrackableEventHandler
 	
 	#endregion // PRIVATE_MEMBER_VARIABLES
 	
-	
+	public Canvas screenController;
 	
 	#region UNTIY_MONOBEHAVIOUR_METHODS
 	
@@ -66,6 +66,8 @@ ITrackableEventHandler
 	
 	private void OnTrackingFound()
 	{
+		this.screenController.enabled = false;
+
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 		Terrain[]  terrainComponents  = GetComponentsInChildren<Terrain>(true);
@@ -103,15 +105,14 @@ ITrackableEventHandler
 		//GameObject.Find ("HaloLight_PF_05_04").SetActive(true);
 		//GameObject.Find ("HaloLight_PF_03_01").SetActive(true);
 
-		//Target
-		GameObject.Find ("ScreenController").SetActive(false);
-
 		Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
 	}
 	
 	
 	private void OnTrackingLost()
 	{
+		this.screenController.enabled = true;
+
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 		Terrain[]  terrainComponents  = GetComponentsInChildren<Terrain>(true);
@@ -148,9 +149,6 @@ ITrackableEventHandler
 		//GameObject.Find ("HaloLight_PF_05_03").SetActive(false);
 		//GameObject.Find ("HaloLight_PF_05_04").SetActive(false);
 		//GameObject.Find ("HaloLight_PF_03_01").SetActive(false);
-
-		//Target
-		GameObject.Find ("ScreenController").SetActive(true);
 
 		Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
 	}
