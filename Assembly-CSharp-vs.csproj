@@ -51,6 +51,8 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CustomTrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CustomTrackableEventHandlerWithAudio.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CustomTrackableEventHandlerWithVB.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CustomVirtualButtonEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CylinderTargetBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DataSetLoadBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DefaultInitializationErrorHandler.cs" />
