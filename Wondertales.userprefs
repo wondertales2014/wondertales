@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Qualcomm Augmented Reality\Scripts\CustomTrackableEventHandlerWithAudio.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scenes\Tres Cerditos\Scripts\Pagina 6\Aullar.js">
     <Files>
-      <File FileName="Assets\Scripts\AnimateEgg.js" Line="9" Column="19" />
-      <File FileName="Assets\Scripts\LoadAtStart.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EggsQtyController.cs" Line="24" Column="23" />
-      <File FileName="Assets\Qualcomm Augmented Reality\Scripts\CustomTrackableEventHandler.cs" Line="52" Column="37" />
-      <File FileName="Assets\Qualcomm Augmented Reality\Scripts\CustomTrackableEventHandlerWithAudio.cs" Line="10" Column="75" />
+      <File FileName="Assets\Scenes\Tres Cerditos\Scripts\Pagina 6\Aullar.js" Line="4" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
