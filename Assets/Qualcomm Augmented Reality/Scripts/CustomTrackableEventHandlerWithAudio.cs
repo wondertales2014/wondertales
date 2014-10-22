@@ -18,6 +18,7 @@ ITrackableEventHandler
 	public Canvas screenController;
 	public Canvas loadingController;
 	public Canvas pageController;
+	public AudioSource audioSong;
 	
 	#endregion // PRIVATE_MEMBER_VARIABLES
 	
@@ -55,12 +56,12 @@ ITrackableEventHandler
 		    newStatus == TrackableBehaviour.Status.TRACKED ||
 		    newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
 		{
-			audio.Play();
+			audioSong.Play();
 			OnTrackingFound();
 		}
 		else
 		{
-			audio.Stop();
+			audioSong.Stop();
 			OnTrackingLost();
 		}
 	}
