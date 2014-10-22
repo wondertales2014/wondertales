@@ -23,14 +23,14 @@ public class ChickenGame : MonoBehaviour {
 		if (valor == 1)	
 		{
 
-			Collider[] gallinaColliderComponents = gallina.GetComponentsInChildren<Collider>(true);
+			Collider[] gallinaColliderComponents = gallina.GetComponents<Collider>();
 			// Disable colliders:
 			foreach (Collider component in gallinaColliderComponents)
 			{
 				component.enabled = false;
 			}
 
-			Collider[] patoColliderComponents = pato.GetComponentsInChildren<Collider>(true);
+			Collider[] patoColliderComponents = pato.GetComponents<Collider>();
 			// Disable colliders:
 			foreach (Collider component in patoColliderComponents)
 			{

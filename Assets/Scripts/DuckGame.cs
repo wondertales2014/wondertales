@@ -23,7 +23,7 @@ public class DuckGame : MonoBehaviour {
 		if (valor == 1)	
 		{
 			
-			Collider[] patoColliderComponents = pato.GetComponentsInChildren<Collider>(true);
+			Collider[] patoColliderComponents = pato.GetComponents<Collider>();
 			// Disable colliders:
 			foreach (Collider component in patoColliderComponents)
 			{

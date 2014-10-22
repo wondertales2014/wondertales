@@ -38,14 +38,14 @@ ITrackableEventHandler
 			mTrackableBehaviour.RegisterTrackableEventHandler(this);
 		}
 
-		Collider[] patoColliderComponents = pato.GetComponentsInChildren<Collider>(true);
+		Collider[] patoColliderComponents = pato.GetComponents<Collider>();
 		// Disable colliders:
 		foreach (Collider component in patoColliderComponents)
 		{
 			component.enabled = false;
 		}
 
-		Collider[] gallinaColliderComponents = gallina.GetComponentsInChildren<Collider>(true);
+		Collider[] gallinaColliderComponents = gallina.GetComponents<Collider>();
 		// Disable colliders:
 		foreach (Collider component in gallinaColliderComponents)
 		{

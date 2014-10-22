@@ -23,7 +23,7 @@ public class CatGame : MonoBehaviour {
 	void OnTouchDown(int valor) {
 		if (valor == 1)	
 		{
-			Collider[] gatoColliderComponents = gato.GetComponentsInChildren<Collider>(true);
+			Collider[] gatoColliderComponents = gato.GetComponents<Collider>();
 
 			// Disable colliders:
 			foreach (Collider component in gatoColliderComponents)
@@ -31,7 +31,7 @@ public class CatGame : MonoBehaviour {
 				component.enabled = false;
 			}
 
-			Collider[] gallinaColliderComponents = gallina.GetComponentsInChildren<Collider>(true);
+			Collider[] gallinaColliderComponents = gallina.GetComponents<Collider>();
 			// Disable colliders:
 			foreach (Collider component in gallinaColliderComponents)
 			{

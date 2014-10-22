@@ -53,6 +53,8 @@
      <Compile Include="Assets\Scripts\AnimateEgg.js" />
      <Compile Include="Assets\Scripts\AnimateEggGold.js" />
      <Compile Include="Assets\Scripts\AnimateEggNormal.js" />
+     <Compile Include="Assets\Scripts\AnimateGrass.js" />
+     <Compile Include="Assets\Scripts\AnimateGrassFind.js" />
      <Compile Include="Assets\Scripts\DialogFlowControler.js" />
      <Compile Include="Assets\Scripts\Dialogos.js" />
      <Compile Include="Assets\Scripts\DuckToSwan.js" />
