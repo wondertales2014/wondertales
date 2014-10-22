@@ -23,6 +23,15 @@ function Update () {
 					{
 					hit.transform.gameObject.SendMessage("OnTouchDown", 2);
 					}
+				if (Input.GetTouch(i).phase == TouchPhase.Moved)
+					{
+					hit.transform.gameObject.SendMessage("OnTouchDown", 3);
+					}
+				if (Input.GetTouch(i).phase == TouchPhase.Stationary)
+					{
+					hit.transform.gameObject.SendMessage("OnTouchDown", 4);
+					}
+					
 				}
 			}
 		}
