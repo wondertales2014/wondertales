@@ -1,0 +1,27 @@
+Initialize engine version: 4.6.0b20 (a3ecf55f1347)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     64 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll (this message is harmless)
+Loading C:\Users\PabloyNoe\Documents\GitHub\wondertales\WonderTales_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll into Unity Child Domain
+- Completed reload, in  0.539 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.

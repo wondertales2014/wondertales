@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 3\Lobo.js" />
      <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 4\Window.js" />
+     <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 5\Silla.js" />
      <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 6\Aullar.js" />
      <Compile Include="Assets\Scripts\AR Touch detection.js" />
      <Compile Include="Assets\Scripts\AnimateEgg.js" />
@@ -98,13 +99,13 @@
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
      <None Include="Assets\StreamingAssets\QCAR\unity.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/cbarone/Documents/wondertales/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/PabloyNoe/Documents/GitHub/wondertales/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
- <HintPath>C:/Users/cbarone/Documents/wondertales/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>C:/Users/PabloyNoe/Documents/GitHub/wondertales/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

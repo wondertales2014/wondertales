@@ -1,6 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scenes\Tres Cerditos\Scripts\Pagina 5\Silla.js">
+    <Files>
+      <File FileName="Assets\Scenes\Tres Cerditos\Scripts\Pagina 4\Window.js" Line="29" Column="2" />
+      <File FileName="Assets\Scenes\Tres Cerditos\Scripts\Pagina 5\Silla.js" Line="22" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
