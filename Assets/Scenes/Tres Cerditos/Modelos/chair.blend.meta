@@ -6,9 +6,33 @@ ModelImporter:
     100000: //RootNode
     100002: Cube
     100004: Plane
+    100006: Armature
+    100008: Bone
+    100010: Bone_001
+    100012: Bone_002
+    100014: Bone_003
+    100016: Bone_004
+    100018: Bone_005
+    100020: Bone_006
+    100022: Bone_007
+    100024: Bone_009
+    100026: Bone_010
+    100028: Bone_011
     400000: //RootNode
     400002: Cube
     400004: Plane
+    400006: Armature
+    400008: Bone
+    400010: Bone_001
+    400012: Bone_002
+    400014: Bone_003
+    400016: Bone_004
+    400018: Bone_005
+    400020: Bone_006
+    400022: Bone_007
+    400024: Bone_009
+    400026: Bone_010
+    400028: Bone_011
     2300000: Cube
     2300002: Plane
     2300004: //RootNode
@@ -19,6 +43,7 @@ ModelImporter:
     4300002: Cube
     7400000: Default Take
     9500000: //RootNode
+    13700000: Cube
   materials:
     importMaterials: 1
     materialName: 0
@@ -68,7 +93,7 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: Armature
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   additionalBone: 0

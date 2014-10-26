@@ -78,6 +78,7 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\SmartTerrainBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\SurfaceBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TCP1TrackableEventHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TCP5TrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TCP6TrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TextRecoBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TurnOffBehaviour.cs" />
