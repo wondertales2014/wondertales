@@ -1,6 +1,7 @@
 ﻿#pragma strict
 
 var loboAnim: Animator;
+var  ventana : GameObject;
 
 function Start () {
 
@@ -20,6 +21,7 @@ if (funcion == 1)
 if (funcion == 2)
 	{
 	loboAnim.SetBool("aullar",false);
+	ventana.renderer.material.color.b = 0f; 
 	}
 if (funcion == 3 || funcion == 4)
 	{
