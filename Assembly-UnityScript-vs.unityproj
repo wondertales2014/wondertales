@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scenes\Caperucita\scripts\Pagina3\FlorDesaparece.js" />
      <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 2\Chanchito Festejo.js" />
      <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 2\Flow Controler.js" />
      <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 2\Material.js" />
@@ -59,6 +60,7 @@
      <Compile Include="Assets\Scripts\AnimateEggNormal.js" />
      <Compile Include="Assets\Scripts\AnimateGrass.js" />
      <Compile Include="Assets\Scripts\AnimateGrassFind.js" />
+     <Compile Include="Assets\Scripts\DesapareceFlor.js" />
      <Compile Include="Assets\Scripts\DialogFlowControler.js" />
      <Compile Include="Assets\Scripts\Dialogos.js" />
      <Compile Include="Assets\Scripts\DuckToSwan.js" />
@@ -100,15 +102,16 @@
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\BrightTexture.shader" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
+     <None Include="Assets\Scenes\Caperucita\Modelos\Ornamental Flower Set\Shaders\Transparent-BumpSpecNoCull.shader" />
      <None Include="Assets\StreamingAssets\QCAR\unity.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/PabloyNoe/Documents/GitHub/wondertales/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Diego/Documents/GitHub/wondertales/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
- <HintPath>C:/Users/PabloyNoe/Documents/GitHub/wondertales/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>C:/Users/Diego/Documents/GitHub/wondertales/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
