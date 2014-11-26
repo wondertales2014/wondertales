@@ -49,6 +49,7 @@
      <Compile Include="Assets\BotControlScript.cs" />
      <Compile Include="Assets\MovementAnimsetProLite\Scripts\InputWalk.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\ButtonPopup.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CRP1TrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CRP2TrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CRP3TrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
