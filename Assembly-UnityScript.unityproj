@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 5\Silla.js" />
      <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 6\Aullar.js" />
      <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 7\Arrastrar.js" />
+     <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 7\chimenea.js" />
      <Compile Include="Assets\Scripts\AR Touch detection.js" />
      <Compile Include="Assets\Scripts\AnimateEgg.js" />
      <Compile Include="Assets\Scripts\AnimateEggGold.js" />
