@@ -49,6 +49,7 @@
      <Compile Include="Assets\BotControlScript.cs" />
      <Compile Include="Assets\MovementAnimsetProLite\Scripts\InputWalk.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\ButtonPopup.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CR05CustomTrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CRP1TrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CRP2TrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CRP3TrackableEventHandler.cs" />
@@ -96,6 +97,9 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\Scenes\Caperucita\scripts\Pagina5\AbuelitaGame.cs" />
+     <Compile Include="Assets\Scenes\Caperucita\scripts\Pagina5\CaperucitaGame.cs" />
+     <Compile Include="Assets\Scenes\Caperucita\scripts\Pagina5\WolfGame.cs" />
      <Compile Include="Assets\Scripts\CatGame.cs" />
      <Compile Include="Assets\Scripts\ChickenGame.cs" />
      <Compile Include="Assets\Scripts\DuckGame.cs" />
