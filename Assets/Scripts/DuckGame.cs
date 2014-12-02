@@ -9,6 +9,7 @@ public class DuckGame : MonoBehaviour {
 	public GameObject gallina;
 	public Text texto;
 	public AudioSource audioAnimal;
+	public AudioSource audioError;
 	
 	// Use this for initialization
 	void Start () {
@@ -30,8 +31,12 @@ public class DuckGame : MonoBehaviour {
 				component.enabled = false;
 			}
 
-			audioAnimal.Play();
-			texto.text = "Muy bien! Nunca nos dejemos llevar por las apariencias. Veamos que sucede...";
+			if(texto.text.Equals("¿Quien es feo?")) {
+				audioAnimal.Play();
+				texto.text = "Muy bien! Nunca nos dejemos llevar por las apariencias. Veamos que sucede...";
+			} else {
+				audioError.Play();
+			}
 		}
 		if (valor == 2)	
 		{

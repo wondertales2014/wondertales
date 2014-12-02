@@ -9,6 +9,7 @@ public class CatGame : MonoBehaviour {
 	public GameObject gallina;
 	public Text texto;
 	public AudioSource audioAnimal;
+	public AudioSource audioError;
 
 	// Use this for initialization
 	void Start () {
@@ -38,8 +39,12 @@ public class CatGame : MonoBehaviour {
 				component.enabled = true;
 			}
 
+			if(texto.text.Equals("¿Quien escupe bolas de pelo?")) {
 			audioAnimal.Play();
 			texto.text = "¿Quien pone huevos?";
+			} else {
+				audioError.Play();
+			}
 		}
 		if (valor == 2)	
 		{
