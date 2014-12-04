@@ -9,6 +9,7 @@ public class WolfGame : MonoBehaviour {
 	public GameObject gallina;
 	public Text texto;
 	public AudioSource audioAnimal;
+	public AudioSource audioError;
 	
 	// Use this for initialization
 	void Start () {
@@ -30,8 +31,12 @@ public class WolfGame : MonoBehaviour {
 				component.enabled = false;
 			}
 
-			audioAnimal.Play();
-			texto.text = "Felicitaciones! haz acertado todos los personajes!";
+			if(texto.text.Equals("¿Quien es astuto y malvado?")) {
+				audioAnimal.Play();
+				texto.text = "Excelente! Haz acertado todas las respuestas. Continua leyendo para conocer el final de esta maravillosa historia.";
+			} else {
+				audioError.Play();
+			}
 		}
 		if (valor == 2)	
 		{

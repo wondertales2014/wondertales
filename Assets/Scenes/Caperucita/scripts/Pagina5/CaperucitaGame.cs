@@ -9,6 +9,7 @@ public class CaperucitaGame : MonoBehaviour {
 	public GameObject gallina;
 	public Text texto;
 	public AudioSource audioAnimal;
+	public AudioSource audioError;
 
 	// Use this for initialization
 	void Start () {
@@ -38,8 +39,12 @@ public class CaperucitaGame : MonoBehaviour {
 				component.enabled = true;
 			}
 
+			if(texto.text.Equals("¿Quién lleva pasteles y zumo de manzana a su abuelita?")) {
 			audioAnimal.Play();
-			texto.text = "¿Quien regalo a Caperucita una caperusa color rojo?";
+			texto.text = "¿Quien regalo una caperusa roja a su nieta?";
+			} else {
+				audioError.Play();
+			}
 		}
 		if (valor == 2)	
 		{

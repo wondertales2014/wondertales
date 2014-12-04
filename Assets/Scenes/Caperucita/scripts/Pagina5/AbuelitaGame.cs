@@ -9,6 +9,7 @@ public class AbuelitaGame : MonoBehaviour {
 	public GameObject gallina;
 	public Text texto;
 	public AudioSource audioAnimal;
+	public AudioSource audioError;
 	
 	// Use this for initialization
 	void Start () {
@@ -36,9 +37,12 @@ public class AbuelitaGame : MonoBehaviour {
 			{
 				component.enabled = true;
 			}
-
-			audioAnimal.Play();
-			texto.text = "¿Quien es feo?";
+			if(texto.text.Equals("¿Quien regalo una caperusa roja a su nieta?")) {
+				audioAnimal.Play();
+				texto.text = "¿Quien es astuto y malvado?";
+			} else {
+				audioError.Play();
+			}
 		}
 		if (valor == 2)	
 		{
