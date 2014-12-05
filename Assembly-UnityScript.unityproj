@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scenes\Caperucita\scripts\Pagina3\FlorDesaparece.js" />
+     <Compile Include="Assets\Scenes\Caperucita\scripts\Pagina6\Lobo_caperucita.js" />
      <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 2\Chanchito Festejo.js" />
      <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 2\Flow Controler.js" />
      <Compile Include="Assets\Scenes\Tres Cerditos\Scripts\Pagina 2\Material.js" />
