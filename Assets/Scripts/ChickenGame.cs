@@ -24,19 +24,6 @@ public class ChickenGame : MonoBehaviour {
 		if (valor == 1)	
 		{
 
-			Collider[] gallinaColliderComponents = gallina.GetComponents<Collider>();
-			// Disable colliders:
-			foreach (Collider component in gallinaColliderComponents)
-			{
-				component.enabled = false;
-			}
-
-			Collider[] patoColliderComponents = pato.GetComponents<Collider>();
-			// Disable colliders:
-			foreach (Collider component in patoColliderComponents)
-			{
-				component.enabled = true;
-			}
 			if(texto.text.Equals("¿Quien pone huevos?")) {
 				audioAnimal.Play();
 				texto.text = "¿Quien es feo?";

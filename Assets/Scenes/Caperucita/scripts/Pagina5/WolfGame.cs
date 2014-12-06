@@ -33,7 +33,7 @@ public class WolfGame : MonoBehaviour {
 
 			if(texto.text.Equals("¿Quien es astuto y malvado?")) {
 				audioAnimal.Play();
-				texto.text = "Excelente! Haz acertado todas las respuestas. Continua leyendo para conocer el final de esta maravillosa historia.";
+				texto.text = "Excelente! Has acertado todas las respuestas. Continua leyendo para conocer el final de esta maravillosa historia.";
 			} else {
 				audioError.Play();
 			}

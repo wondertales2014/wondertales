@@ -19,6 +19,8 @@ ITrackableEventHandler
 	#endregion // PRIVATE_MEMBER_VARIABLES
 	
 	public Canvas screenController;
+	public Canvas gameMessage;
+
 	public AudioSource aullido;
 	public Animator loboAnim;
 	
@@ -69,7 +71,8 @@ ITrackableEventHandler
 	private void OnTrackingFound()
 	{
 		this.screenController.enabled = false;
-		
+		this.gameMessage.enabled = true;
+
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 		Terrain[]  terrainComponents  = GetComponentsInChildren<Terrain>(true);
@@ -114,6 +117,8 @@ ITrackableEventHandler
 	private void OnTrackingLost()
 	{
 		this.screenController.enabled = true;
+		this.gameMessage.enabled = false;
+
 		if (aullido.isPlaying) {
 			aullido.Stop ();
 		}

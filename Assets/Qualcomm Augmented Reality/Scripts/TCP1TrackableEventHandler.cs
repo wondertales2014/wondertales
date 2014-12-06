@@ -17,7 +17,8 @@ ITrackableEventHandler
 	private TrackableBehaviour mTrackableBehaviour;
 	
 	#endregion // PRIVATE_MEMBER_VARIABLES
-	
+
+	public Canvas gameMessage;
 	public Canvas screenController;
 	#region UNTIY_MONOBEHAVIOUR_METHODS
 	
@@ -66,6 +67,7 @@ ITrackableEventHandler
 	private void OnTrackingFound()
 	{
 		this.screenController.enabled = false;
+		this.gameMessage.enabled = true;
 
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
@@ -111,7 +113,8 @@ ITrackableEventHandler
 	private void OnTrackingLost()
 	{
 		this.screenController.enabled = true;
-		
+		this.gameMessage.enabled = false;
+
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 		Terrain[]  terrainComponents  = GetComponentsInChildren<Terrain>(true);
