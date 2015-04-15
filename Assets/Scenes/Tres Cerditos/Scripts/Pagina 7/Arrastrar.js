@@ -34,8 +34,8 @@ for (var touch : Touch in Input.touches){
                     	{
                     	R.enabled = false;
                     	}           
-    				this.renderer.enabled = false;
-    				audio.Play();
+    				this.GetComponent.<Renderer>().enabled = false;
+    				GetComponent.<AudioSource>().Play();
     				}
 
             }
