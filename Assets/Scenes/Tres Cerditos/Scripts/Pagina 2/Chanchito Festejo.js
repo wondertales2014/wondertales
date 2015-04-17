@@ -15,7 +15,7 @@ if (opcion == 1)
 	{
 	chanchito.SetBool("festejar", true);
 	chanchito.SetBool("negar", false);
-	this.GetComponent.<AudioSource>().Play();
+	this.audio.Play();
 	yield;
 	chanchito.SetBool("festejar", false);
 	}

@@ -221,7 +221,7 @@
             <resampledTextureWidth>640</resampledTextureWidth>
         </osx>
     </webcam>
-    <webcam deviceName="FaceTime HD Camera">
+    <webcam deviceName="FaceTime HD Camera (Built-in)">
         <windows>
             <!-- size of the web cam texture requested from Unity -->
             <requestedTextureWidth>640</requestedTextureWidth>

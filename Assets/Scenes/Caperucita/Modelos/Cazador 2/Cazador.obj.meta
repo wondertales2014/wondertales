@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: cda26b77769d96443b70f68098f8257c
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 16
   fileIDToRecycleName:
     100000: //RootNode
     100002: Mesh10_skpUX7NTu1 orker1 Model
@@ -19,21 +19,6 @@ ModelImporter:
     100026: Mesh7_skpUX7NTu1 orker1 Model
     100028: Mesh8_skpUX7NTu1 orker1 Model
     100030: Mesh9_skpUX7NTu1 orker1 Model
-    100032: Mesh10_skpUX7NTu1_orker1_Model
-    100034: Mesh11_skpUX7NTu1_orker1_Model
-    100036: Mesh12_skpUX7NTu1_orker1_Model
-    100038: Mesh13_skpUX7NTu1_orker1_Model
-    100040: Mesh14_skpUX7NTu1_orker1_Model
-    100042: Mesh15_orker1_Model
-    100044: Mesh1_Group2_Group1_Component_124_1_Model
-    100046: Mesh2_Group3_orker1_Model
-    100048: Mesh3_Group4_orker1_Model
-    100050: Mesh4_Group5_orker1_Model
-    100052: Mesh5_Group6_orker1_Model
-    100054: Mesh6_skpUX7NTu1_orker1_Model
-    100056: Mesh7_skpUX7NTu1_orker1_Model
-    100058: Mesh8_skpUX7NTu1_orker1_Model
-    100060: Mesh9_skpUX7NTu1_orker1_Model
     400000: //RootNode
     400002: Mesh10_skpUX7NTu1 orker1 Model
     400004: Mesh11_skpUX7NTu1 orker1 Model
@@ -50,21 +35,6 @@ ModelImporter:
     400026: Mesh7_skpUX7NTu1 orker1 Model
     400028: Mesh8_skpUX7NTu1 orker1 Model
     400030: Mesh9_skpUX7NTu1 orker1 Model
-    400032: Mesh10_skpUX7NTu1_orker1_Model
-    400034: Mesh11_skpUX7NTu1_orker1_Model
-    400036: Mesh12_skpUX7NTu1_orker1_Model
-    400038: Mesh13_skpUX7NTu1_orker1_Model
-    400040: Mesh14_skpUX7NTu1_orker1_Model
-    400042: Mesh15_orker1_Model
-    400044: Mesh1_Group2_Group1_Component_124_1_Model
-    400046: Mesh2_Group3_orker1_Model
-    400048: Mesh3_Group4_orker1_Model
-    400050: Mesh4_Group5_orker1_Model
-    400052: Mesh5_Group6_orker1_Model
-    400054: Mesh6_skpUX7NTu1_orker1_Model
-    400056: Mesh7_skpUX7NTu1_orker1_Model
-    400058: Mesh8_skpUX7NTu1_orker1_Model
-    400060: Mesh9_skpUX7NTu1_orker1_Model
     2300000: Mesh10_skpUX7NTu1 orker1 Model
     2300002: Mesh11_skpUX7NTu1 orker1 Model
     2300004: Mesh12_skpUX7NTu1 orker1 Model
@@ -80,21 +50,6 @@ ModelImporter:
     2300024: Mesh7_skpUX7NTu1 orker1 Model
     2300026: Mesh8_skpUX7NTu1 orker1 Model
     2300028: Mesh9_skpUX7NTu1 orker1 Model
-    2300030: Mesh10_skpUX7NTu1_orker1_Model
-    2300032: Mesh11_skpUX7NTu1_orker1_Model
-    2300034: Mesh12_skpUX7NTu1_orker1_Model
-    2300036: Mesh13_skpUX7NTu1_orker1_Model
-    2300038: Mesh14_skpUX7NTu1_orker1_Model
-    2300040: Mesh15_orker1_Model
-    2300042: Mesh1_Group2_Group1_Component_124_1_Model
-    2300044: Mesh2_Group3_orker1_Model
-    2300046: Mesh3_Group4_orker1_Model
-    2300048: Mesh4_Group5_orker1_Model
-    2300050: Mesh5_Group6_orker1_Model
-    2300052: Mesh6_skpUX7NTu1_orker1_Model
-    2300054: Mesh7_skpUX7NTu1_orker1_Model
-    2300056: Mesh8_skpUX7NTu1_orker1_Model
-    2300058: Mesh9_skpUX7NTu1_orker1_Model
     3300000: Mesh10_skpUX7NTu1 orker1 Model
     3300002: Mesh11_skpUX7NTu1 orker1 Model
     3300004: Mesh12_skpUX7NTu1 orker1 Model
@@ -110,21 +65,6 @@ ModelImporter:
     3300024: Mesh7_skpUX7NTu1 orker1 Model
     3300026: Mesh8_skpUX7NTu1 orker1 Model
     3300028: Mesh9_skpUX7NTu1 orker1 Model
-    3300030: Mesh10_skpUX7NTu1_orker1_Model
-    3300032: Mesh11_skpUX7NTu1_orker1_Model
-    3300034: Mesh12_skpUX7NTu1_orker1_Model
-    3300036: Mesh13_skpUX7NTu1_orker1_Model
-    3300038: Mesh14_skpUX7NTu1_orker1_Model
-    3300040: Mesh15_orker1_Model
-    3300042: Mesh1_Group2_Group1_Component_124_1_Model
-    3300044: Mesh2_Group3_orker1_Model
-    3300046: Mesh3_Group4_orker1_Model
-    3300048: Mesh4_Group5_orker1_Model
-    3300050: Mesh5_Group6_orker1_Model
-    3300052: Mesh6_skpUX7NTu1_orker1_Model
-    3300054: Mesh7_skpUX7NTu1_orker1_Model
-    3300056: Mesh8_skpUX7NTu1_orker1_Model
-    3300058: Mesh9_skpUX7NTu1_orker1_Model
     4300000: Mesh10_skpUX7NTu1 orker1 Model
     4300002: Mesh11_skpUX7NTu1 orker1 Model
     4300004: Mesh12_skpUX7NTu1 orker1 Model
@@ -140,21 +80,6 @@ ModelImporter:
     4300024: Mesh7_skpUX7NTu1 orker1 Model
     4300026: Mesh8_skpUX7NTu1 orker1 Model
     4300028: Mesh9_skpUX7NTu1 orker1 Model
-    4300030: Mesh10_skpUX7NTu1_orker1_Model
-    4300032: Mesh11_skpUX7NTu1_orker1_Model
-    4300034: Mesh12_skpUX7NTu1_orker1_Model
-    4300036: Mesh13_skpUX7NTu1_orker1_Model
-    4300038: Mesh14_skpUX7NTu1_orker1_Model
-    4300040: Mesh15_orker1_Model
-    4300042: Mesh1_Group2_Group1_Component_124_1_Model
-    4300044: Mesh2_Group3_orker1_Model
-    4300046: Mesh3_Group4_orker1_Model
-    4300048: Mesh4_Group5_orker1_Model
-    4300050: Mesh5_Group6_orker1_Model
-    4300052: Mesh6_skpUX7NTu1_orker1_Model
-    4300054: Mesh7_skpUX7NTu1_orker1_Model
-    4300056: Mesh8_skpUX7NTu1_orker1_Model
-    4300058: Mesh9_skpUX7NTu1_orker1_Model
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -183,13 +108,11 @@ ModelImporter:
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
-    keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
@@ -951,5 +874,3 @@ ModelImporter:
   animationType: 3
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
