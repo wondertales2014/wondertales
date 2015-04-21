@@ -81,7 +81,6 @@ ITrackableEventHandler, IVirtualButtonEventHandler
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 		Terrain[]  terrainComponents  = GetComponentsInChildren<Terrain>(true);
-//		Canvas[]   canvasComponents   = GetComponentsInChildren<Canvas>(true);
 
 		// Enable rendering:
 		foreach (Renderer component in rendererComponents)
@@ -101,11 +100,6 @@ ITrackableEventHandler, IVirtualButtonEventHandler
 			terrain.enabled = true;
 		}
 
-		// Enable Canvas:
-//		foreach (Canvas canvas in canvasComponents)
-//		{
-//			canvas.enabled = true;
-//		}
 
 		//Enable Halos
 		//GameObject.Find ("HaloLight_PF_07_01").SetActive(true);
@@ -131,7 +125,6 @@ ITrackableEventHandler, IVirtualButtonEventHandler
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 		Terrain[]  terrainComponents  = GetComponentsInChildren<Terrain>(true);
-		Canvas[]   CanvasComponents   = GetComponentsInChildren<Canvas>(true);
 
 		// Disable rendering:
 		foreach (Renderer component in rendererComponents)
@@ -151,11 +144,6 @@ ITrackableEventHandler, IVirtualButtonEventHandler
 			terrain.enabled = false;
 		}
 
-		// Disable Canvas:
-		foreach (Canvas canvas in CanvasComponents)
-		{
-			canvas.enabled = false;
-		}
 
 		//Disable Halos
 		//GameObject.Find ("HaloLight_PF_07_01").SetActive(false);
