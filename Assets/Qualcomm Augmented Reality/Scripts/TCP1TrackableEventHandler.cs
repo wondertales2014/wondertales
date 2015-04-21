@@ -112,8 +112,12 @@ ITrackableEventHandler
 	
 	private void OnTrackingLost()
 	{
-		this.screenController.enabled = true;
-		this.gameMessage.enabled = false;
+		if (this.screenController != null) {
+			this.screenController.enabled = true;
+		}
+		if (this.gameMessage != null) {
+			this.gameMessage.enabled = false;
+		}
 
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);

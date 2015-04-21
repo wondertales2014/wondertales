@@ -115,8 +115,12 @@ ITrackableEventHandler
 	
 	private void OnTrackingLost()
 	{
-		this.screenController.enabled = true;
-		this.gameMessage.enabled = false;
+		if (this.screenController != null) {
+			this.screenController.enabled = true;
+		}
+		if (this.gameMessage != null) {
+			this.gameMessage.enabled = false;
+		}
 
 		if (audio.isPlaying) {
 						audio.Stop ();

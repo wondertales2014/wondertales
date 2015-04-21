@@ -112,9 +112,15 @@ ITrackableEventHandler
 	private void OnTrackingLost()
 	{
 		//Target
-		this.screenController.enabled = true;
-		this.loadingController.enabled = false;
-		this.pageController.enabled = false;
+		if (this.screenController != null) {
+			this.screenController.enabled = true;
+		}
+		if (this.loadingController != null) {
+			this.loadingController.enabled = false;
+		}
+		if (this.pageController != null) {
+			this.pageController.enabled = false;
+		}
 		
 		Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 		Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
